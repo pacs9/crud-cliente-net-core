@@ -3,3 +3,17 @@
 ################################################################################
 
 /crud-cliente/.vs/crud-cliente/v16/Server/sqlite3/db.lock
+/crud-cliente/.vs/crud-cliente/v16
+/crud-cliente/.vs/crud-cliente/DesignTimeBuild
+*.dll
+/crud-cliente/common/bin/Debug/netcoreapp3.0
+/crud-cliente/common/obj
+/crud-cliente/business/bin/Debug/netcoreapp3.0
+/crud-cliente/business/obj
+/crud-cliente/crud-cliente/bin/Debug/netcoreapp3.0
+/crud-cliente/domain/bin/Debug/netcoreapp3.0
+/crud-cliente/domain/obj
+/crud-cliente/repository/bin/Debug/netcoreapp3.0
+/crud-cliente/repository/obj
+/crud-cliente/view-model/bin/Debug/netcoreapp3.0
+/crud-cliente/view-model/obj

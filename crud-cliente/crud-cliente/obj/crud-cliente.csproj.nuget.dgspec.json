@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj",
+        "projectName": "business",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "http://NT2453/NuGet/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj"
+              },
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj"
+              },
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
+        "projectName": "crud-cliente",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "http://NT2453/NuGet/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj"
+              },
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "http://NT2453/NuGet/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj",
+        "projectName": "repository",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "http://NT2453/NuGet/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj",
+        "projectName": "view-model",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "http://NT2453/NuGet/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
