@@ -5,7 +5,7 @@ using System.Text;
 
 namespace common
 {
-    public enum Estados
+    public enum EEstado
     {
         [Description("Acre")]
         AC = 0,

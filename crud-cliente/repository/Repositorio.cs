@@ -8,56 +8,56 @@ namespace repository
 {
     public class Repositorio<T> : IRepositorio<T>, IDisposable where T : class
     {
-        private readonly Contexto Contexto;
+        private readonly Contexto _contexto;
 
-        protected Repositorio()
+        protected Repositorio(Contexto contexto)
         {
-            Contexto = new Contexto();
+            _contexto = contexto;
         }
 
         public void Insert(T entity)
         {
-            Contexto.Set<T>().Add(entity);
-            Contexto.SaveChanges();
+            _contexto.Set<T>().Add(entity);
+            _contexto.SaveChanges();
         }
 
         public void Delete(Func<T, bool> predicate)
         {
-            Contexto.Set<T>().Where(predicate).ToList().ForEach(delete => Contexto.Set<T>().Remove(delete));
-            Contexto.SaveChanges();
+            _contexto.Set<T>().Where(predicate).ToList().ForEach(delete => _contexto.Set<T>().Remove(delete));
+            _contexto.SaveChanges();
         }
 
         public T FindById(params object[] key)
         {
-            return Contexto.Set<T>().Find(key);
+            return _contexto.Set<T>().Find(key);
         }
 
         public T Fisrt(Expression<Func<T, bool>> predicate)
         {
-            return Contexto.Set<T>().FirstOrDefault(predicate);
+            return _contexto.Set<T>().FirstOrDefault(predicate);
         }
 
         public IQueryable<T> Get(Expression<Func<T, bool>> predicate)
         {
-            return Contexto.Set<T>().Where(predicate);
+            return _contexto.Set<T>().Where(predicate);
         }
 
         public IQueryable<T> GetAll()
         {
-            return Contexto.Set<T>();
+            return _contexto.Set<T>();
         }
 
         public void Update(T entity)
         {
-            Contexto.Entry(entity).State = EntityState.Modified;
-            Contexto.SaveChanges();
+            _contexto.Entry(entity).State = EntityState.Modified;
+            _contexto.SaveChanges();
         }
 
         public void Dispose()
         {
-            if (Contexto != null)
+            if (_contexto != null)
             {
-                Contexto.Dispose();
+                _contexto.Dispose();
             }
 
             GC.SuppressFinalize(this);

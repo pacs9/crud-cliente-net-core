@@ -1,9 +1,9 @@
 ﻿using common;
 using System;
 
-namespace domain
+namespace view_model
 {
-    public class Cliente
+    public class ClienteViewModel
     {
         public Guid Id { get; set; }
         public string Nome { get; set; }
@@ -16,5 +16,5 @@ namespace domain
         public string Bairro { get; set; }
         public EEstado Estado { get; set; }
         public string Cidade { get; set; }
-    }
+    }    
 }
