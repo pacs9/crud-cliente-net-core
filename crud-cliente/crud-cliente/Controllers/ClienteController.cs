@@ -9,6 +9,8 @@ using domain;
 using business;
 using view_model;
 using AutoMapper;
+using common.Enums;
+using common.Utilities;
 
 namespace crud_cliente.Controllers
 {
@@ -30,8 +32,10 @@ namespace crud_cliente.Controllers
         // GET: Cliente/Create
         public IActionResult Create()
         {
+            CarregarViewBags();
+
             return View();
-        }
+        }        
 
         // POST: Cliente/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -39,7 +43,7 @@ namespace crud_cliente.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create([Bind("Id,Nome,DataNascimento,Sexo,Cep,Endereco,Numero,Complemento,Bairro,Estado,Cidade")] ClienteViewModel cliente)
-        {
+        {            
             if (ModelState.IsValid)
             {
                 cliente.Id = Guid.NewGuid();
@@ -48,6 +52,8 @@ namespace crud_cliente.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
+
+            CarregarViewBags();
 
             return View(cliente);
         }
@@ -58,7 +64,7 @@ namespace crud_cliente.Controllers
             if (id == null)
             {
                 return NotFound();
-            }
+            }            
 
             var cliente = _business.FindById(id);
 
@@ -66,6 +72,8 @@ namespace crud_cliente.Controllers
             {
                 return NotFound();
             }
+
+            CarregarViewBags();
 
             return View(cliente);
         }
@@ -101,6 +109,9 @@ namespace crud_cliente.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            
+            CarregarViewBags();
+
             return View(cliente);
         }
 
@@ -118,6 +129,8 @@ namespace crud_cliente.Controllers
             {
                 return NotFound();
             }
+
+            CarregarViewBags();
 
             return View(cliente);
         }
@@ -143,6 +156,12 @@ namespace crud_cliente.Controllers
         private bool ClienteExists(Guid id)
         {
             return _business.Any(e => e.Id == id);
+        }
+
+        private void CarregarViewBags()
+        {
+            @ViewBag.Sexo = EnumExtension.GetDirectionSelectList<ESexo>();
+            @ViewBag.Estado = EnumExtension.GetDirectionSelectList<EEstado>(true);
         }
     }
 }

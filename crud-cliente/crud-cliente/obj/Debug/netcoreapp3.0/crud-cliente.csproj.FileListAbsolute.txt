@@ -180,3 +180,8 @@ G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Details.cshtml.g.cs
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Edit.cshtml.g.cs
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Index.cshtml.g.cs
+G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\crud-cliente.MvcApplicationPartsAssemblyInfo.cs

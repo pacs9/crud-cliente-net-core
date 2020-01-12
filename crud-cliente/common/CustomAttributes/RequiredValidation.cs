@@ -17,7 +17,7 @@ namespace common.CustomAttributes
 
         public override bool IsValid(object value)
         {
-            var inputValue = value as string;
+            var inputValue = value.ToString();
 
             return !string.IsNullOrWhiteSpace(inputValue);                       
         }

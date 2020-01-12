@@ -117,6 +117,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -170,6 +176,9 @@
             "projectReferences": {
               "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj": {
                 "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj"
+              },
+              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj": {
+                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj"
               },
               "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
                 "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj"

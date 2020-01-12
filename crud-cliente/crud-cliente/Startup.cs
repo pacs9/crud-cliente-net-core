@@ -37,7 +37,9 @@ namespace crud_cliente
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<ClienteViewModel, Cliente>();
+                cfg.CreateMap<Cliente, ClienteViewModel>();
             });
+
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
         }

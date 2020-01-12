@@ -20,7 +20,7 @@ namespace domain.Migrations
                     Numero = table.Column<string>(nullable: true),
                     Complemento = table.Column<string>(nullable: true),
                     Bairro = table.Column<string>(nullable: true),
-                    Estado = table.Column<int>(nullable: false),
+                    Estado = table.Column<int>(nullable: true),
                     Cidade = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

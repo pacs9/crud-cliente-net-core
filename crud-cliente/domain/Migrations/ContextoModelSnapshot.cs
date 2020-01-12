@@ -41,7 +41,7 @@ namespace domain.Migrations
                     b.Property<string>("Endereco")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("Estado")
+                    b.Property<int?>("Estado")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")

@@ -9,7 +9,7 @@ using domain;
 namespace domain.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200111200548_CreateDataBase")]
+    [Migration("20200112193815_CreateDataBase")]
     partial class CreateDataBase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +43,7 @@ namespace domain.Migrations
                     b.Property<string>("Endereco")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("Estado")
+                    b.Property<int?>("Estado")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
