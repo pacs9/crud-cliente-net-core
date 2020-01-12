@@ -50,6 +50,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -165,6 +171,9 @@
               "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj": {
                 "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj"
               },
+              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj"
+              },
               "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj": {
                 "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj"
               }
@@ -180,11 +189,27 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

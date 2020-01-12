@@ -1,5 +1,6 @@
 ﻿using domain;
 using Microsoft.EntityFrameworkCore;
+using repository.Interfaces;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
@@ -10,7 +11,7 @@ namespace repository
     {
         private readonly Contexto _contexto;
 
-        protected Repositorio(Contexto contexto)
+        public Repositorio(Contexto contexto)
         {
             _contexto = contexto;
         }
@@ -52,6 +53,11 @@ namespace repository
             _contexto.Entry(entity).State = EntityState.Modified;
             _contexto.SaveChanges();
         }
+
+        public bool Any(Expression<Func<T, bool>> predicate)
+        {
+            return _contexto.Set<T>().Any(predicate);
+        }        
 
         public void Dispose()
         {

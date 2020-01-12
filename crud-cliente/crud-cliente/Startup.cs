@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using view_model;
 
 namespace crud_cliente
 {
@@ -27,7 +29,17 @@ namespace crud_cliente
         {
             var connection = Configuration["ConnectionString:MySqlConnectionString"];
             services.AddDbContext<Contexto>(x => x.UseMySql(connection));
-            services.AddRazorPages();            
+            
+            services.AddRazorPages();
+            
+            services.AddControllersWithViews();
+
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<ClienteViewModel, Cliente>();
+            });
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,11 +51,10 @@ namespace crud_cliente
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -53,7 +64,9 @@ namespace crud_cliente
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
