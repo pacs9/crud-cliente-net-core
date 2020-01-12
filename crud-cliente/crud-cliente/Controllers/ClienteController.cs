@@ -11,16 +11,19 @@ using view_model;
 using AutoMapper;
 using common.Enums;
 using common.Utilities;
+using Microsoft.Extensions.Logging;
 
 namespace crud_cliente.Controllers
 {
     public class ClienteController : Controller
     {
         private readonly ClienteBusiness _business;
+        private readonly ILogger<ClienteController> _logger;
 
-        public ClienteController(Contexto contexto, IMapper mapper)
+        public ClienteController(Contexto contexto, IMapper mapper, ILogger<ClienteController> logger)
         {
             _business = new ClienteBusiness(contexto, mapper);
+            _logger = logger;
         }
 
         // GET: Cliente

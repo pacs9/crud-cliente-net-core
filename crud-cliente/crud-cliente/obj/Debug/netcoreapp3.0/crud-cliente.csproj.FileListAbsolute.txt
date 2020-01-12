@@ -20,7 +20,6 @@ G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\crud-cliente.TagHelpers.output.cache
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\crud-cliente.RazorCoreGenerate.cache
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 G:\Projetos\crud-cliente-net-core\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
