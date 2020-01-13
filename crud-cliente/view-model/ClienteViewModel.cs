@@ -2,6 +2,7 @@
 using common.Enums;
 using System;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace view_model
 {
@@ -14,6 +15,8 @@ namespace view_model
 
         [RequiredValidation(FieldType: typeof(DateTime), ErrorMessage = "O campo Data de Nascimento é obrigatório")]
         [DisplayName("Data de Nascimento")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DataNascimento { get; set; }
 
         [RequiredValidation(FieldType: typeof(int), ErrorMessage = "O campo Sexo é obrigatório")]

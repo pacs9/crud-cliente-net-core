@@ -6,48 +6,48 @@
 
 <h1>Clientes</h1>
 
-<div class="row float-right">
+<div class="row">
     <p>
         <a asp-action="Create" class="btn btn-primary ">
             <span class="fas fa-plus"></span> Adicionar Cliente
         </a>
     </p>
 </div>
-<div class="row float-right">
-    <table class="table" id="datatable">
+<div class="row">
+    <table class="table" id="datatable" style="width: 100%;">
         <thead style="font-size: small">
             <tr>
-                <th>
+                <th style="width: 15%;">
                     @Html.DisplayNameFor(model => model.Nome)
                 </th>
-                <th>
+                <th style="width: 10%;">
                     Dt. Nasc.
                 </th>
-                <th>
+                <th style="width: 10%;">
                     @Html.DisplayNameFor(model => model.Sexo)
                 </th>
-                <th>
+                <th style="width: 10%;">
                     @Html.DisplayNameFor(model => model.Cep)
                 </th>
-                <th>
+                <th style="width: 10%;">
                     Endereço
                 </th>
-                <th>
+                <th style="width: 5%;">
                     Nº
                 </th>
-                <th>
+                <th style="width: 10%;">
                     @Html.DisplayNameFor(model => model.Complemento)
                 </th>
-                <th>
+                <th style="width: 10%;">
                     @Html.DisplayNameFor(model => model.Bairro)
                 </th>
-                <th>
+                <th style="width: 5%;">
                     @Html.DisplayNameFor(model => model.Estado)
                 </th>
-                <th>
+                <th style="width: 5%;">
                     @Html.DisplayNameFor(model => model.Cidade)
                 </th>
-                <th></th>
+                <th style="width: 10%;"></th>
             </tr>
         </thead>
         <tbody style="font-size: small">

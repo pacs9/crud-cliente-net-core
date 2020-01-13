@@ -97,3 +97,7 @@ body {
     .table a.table-link.warning:hover {
         color: #806000 !important;
     }
+
+#datatable_wrapper {
+    width: 100%;
+}
