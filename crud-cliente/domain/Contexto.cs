@@ -25,12 +25,9 @@ namespace domain
         {
             base.OnModelCreating(modelBuilder);
             
-            modelBuilder.Entity<Cliente>(new ClienteMap().Configure);            
-            //Database.SetInitializer<Contexto>(new CreateDatabaseIfNotExists<Contexto>())
-
+            modelBuilder.Entity<Cliente>(new ClienteMap().Configure);                        
         }
-        
-        
+                
         public DbSet<Cliente> Clientes { get; set; }
     }
 }
