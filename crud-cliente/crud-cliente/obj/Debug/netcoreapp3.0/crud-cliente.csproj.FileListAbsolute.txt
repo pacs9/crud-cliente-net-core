@@ -352,8 +352,6 @@ C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netc
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\crud-cliente.TagHelpers.output.cache
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\crud-cliente.RazorCoreGenerate.cache
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Create.cshtml.g.cs
-C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Delete.cshtml.g.cs
-C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Details.cshtml.g.cs
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Edit.cshtml.g.cs
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Index.cshtml.g.cs
 C:\Users\1540968\Documents\Crud Cliente\crud-cliente\crud-cliente\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs

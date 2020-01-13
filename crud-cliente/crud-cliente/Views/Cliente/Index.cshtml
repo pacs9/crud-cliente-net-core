@@ -15,7 +15,7 @@
 </div>
 <div class="row float-right">
     <table class="table" id="datatable">
-        <thead>
+        <thead style="font-size: small">
             <tr>
                 <th>
                     @Html.DisplayNameFor(model => model.Nome)
@@ -33,7 +33,7 @@
                     Endereço
                 </th>
                 <th>
-                    Número
+                    Nº
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Complemento)
@@ -50,41 +50,41 @@
                 <th></th>
             </tr>
         </thead>
-        <tbody>
+        <tbody style="font-size: small">
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
+                    <td style="width: 15%;">
                         @Html.DisplayFor(modelItem => item.Nome)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataNascimento)
+                    <td style="width: 10%;">
+                        @Html.DisplayFor(modelItem => item.DataNascimentoFormatada)
                     </td>
-                    <td>
+                    <td style="width: 10%;">
                         @Html.DisplayFor(modelItem => item.Sexo)
                     </td>
-                    <td>
+                    <td style="width: 10%;">
                         @Html.DisplayFor(modelItem => item.Cep)
                     </td>
-                    <td>
+                    <td style="width: 10%;">
                         @Html.DisplayFor(modelItem => item.Endereco)
                     </td>
-                    <td>
+                    <td style="width: 5%;">
                         @Html.DisplayFor(modelItem => item.Numero)
                     </td>
-                    <td>
+                    <td style="width: 10%;">
                         @Html.DisplayFor(modelItem => item.Complemento)
                     </td>
-                    <td>
+                    <td style="width: 10%;">
                         @Html.DisplayFor(modelItem => item.Bairro)
                     </td>
-                    <td>
+                    <td style="width: 5%;">
                         @Html.DisplayFor(modelItem => item.Estado)
                     </td>
-                    <td>
+                    <td style="width: 5%;">
                         @Html.DisplayFor(modelItem => item.Cidade)
                     </td>
-                    <td style="width: 15%;">
+                    <td style="width: 10%;">
                         <a asp-action="Edit" asp-route-id="@item.Id" class="table-link" title="Editar">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x"></i>
