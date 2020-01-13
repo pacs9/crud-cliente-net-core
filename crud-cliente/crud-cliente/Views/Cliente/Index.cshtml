@@ -84,16 +84,26 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Cidade)
                     </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <td style="width: 15%;">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="table-link" title="Editar">
+                            <span class="fa-stack">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-pencil-alt fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a href="#" onclick="confirmaDelecao('@Url.Action("Delete", "Cliente")/@Html.DisplayFor(modelItem => item.Id)');" class="table-link danger" title="Excluir">
+                            <span class="fa-stack">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-trash fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
 </div>
+@Html.AntiForgeryToken()
 
 @section Scripts{
     <link href="~/css/datatables.min.css" rel="stylesheet" />

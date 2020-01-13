@@ -1,43 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {}
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {}
   },
   "projects": {
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj",
         "projectName": "business",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj"
               },
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\repository.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\repository.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj"
               },
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj"
               }
             }
           }
@@ -66,42 +66,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj",
         "projectName": "common",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,58 +127,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
         "projectName": "crud-cliente",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\crud-cliente\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\crud-cliente.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\crud-cliente\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\business\\business.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\business\\business.csproj"
               },
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj"
               },
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj"
               },
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj"
               }
             }
           }
@@ -231,16 +219,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -249,38 +227,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj"
               }
             }
           }
@@ -325,49 +303,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\repository.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\repository.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj",
         "projectName": "repository",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\repository.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\repository\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\repository.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\domain\\domain.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\domain\\domain.csproj"
               }
             }
           }
@@ -390,49 +362,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj": {
+    "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj",
+        "projectUniqueName": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj",
         "projectName": "view-model",
-        "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\view-model.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\view-model\\obj\\",
+        "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\view-model.csproj",
+        "packagesPath": "C:\\Users\\1540968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\view-model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1540968\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://NT2453/NuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj": {
-                "projectPath": "G:\\Projetos\\crud-cliente-net-core\\crud-cliente\\common\\common.csproj"
+              "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\1540968\\Documents\\Crud Cliente\\crud-cliente\\common\\common.csproj"
               }
             }
           }
@@ -455,18 +421,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

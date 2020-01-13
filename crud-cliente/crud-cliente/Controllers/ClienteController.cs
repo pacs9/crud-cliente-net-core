@@ -116,27 +116,7 @@ namespace crud_cliente.Controllers
             CarregarViewBags();
 
             return View(cliente);
-        }
-
-        // GET: Cliente/Delete/5
-        public IActionResult Delete(Guid? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var cliente = _business.Fisrt(c => c.Id == id);
-
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            CarregarViewBags();
-
-            return View(cliente);
-        }
+        }        
 
         // POST: Cliente/Delete/5
         [HttpPost, ActionName("Delete")]
